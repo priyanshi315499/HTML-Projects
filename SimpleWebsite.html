@@ -1,0 +1,48 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333366;
+      display: inline-block;
+      position: relative;
+      padding-bottom: 10px;
+    }
+    h1::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      left: 0;
+      bottom: 0;
+      background: linear-gradient(to right, #00c6ff, #003366);
+      border-radius: 2px;
+    }
+    p {
+      font-size: 30px;
+      font-style: italic;
+      color: #555;
+    }
+    img {
+      width: 1000px;
+      height: auto;
+      border-radius: 50px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Webpage</h1>
+  <p>This is a simple webpage created using HTML and CSS. It contains a heading, a paragraph, and an image.</p>
+  <img src="What-is-Website.png" alt="What-is-Website">
+
+</body>
+</html>
